@@ -36,7 +36,7 @@ const Faq = () => {
               <AccordionContent>
                 To use truily.com, simply create an account and complete your
                 profile. You can then browse through the profiles of other
-                members and send them a message if you're interested in getting
+                members and send them a message if you&apos;re interested in getting
                 to know them better.
               </AccordionContent>
             </AccordionItem>
