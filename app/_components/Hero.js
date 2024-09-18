@@ -1,5 +1,4 @@
 "use client";
-import React, { useState } from "react";
 import Container from "./Container";
 import {
   Select,
@@ -12,20 +11,20 @@ import {
 import { Input } from "@/components/ui/input";
 
 const Hero = () => {
-  const [selectedValue, setSelectedValue] = useState(null);
+  
   return (
-    <div className="relative bg-hero bg-cover bg-top md:h-screen flex flex-col justify-center py-14 px-4 md:px-0">
+    <div className="relative bg-hero bg-cover bg-top md:h-screen flex flex-col justify-center py-16 md:py-14 px-4 md:px-0">
       <div className="absolute inset-0 bg-black bg-opacity-60 z-10"></div>
       <Container>
         <div className="grid grid-cols md:grid-cols-2 gap-8 md:gap-16 items-center">
-          <div className="flex flex-col gap-4 z-50 max-w-[30rem] order-last md:order-first">
+          <div className="flex flex-col gap-4 z-50 max-w-[30rem]">
             <h2 className="z-50 text-white text-[2rem] leading-[2.5rem] font-bold">
               Join the leading dating platform for singles worldwide.
             </h2>
             <p className="z-50 text-white">
               Find meaningful connections and meet like-minded singles today.
             </p>
-            <button className="bg-red px-4 text-base py-2 rounded-md text-white w-max">
+            <button className="bg-red hidden md:flex px-4 text-base py-2 rounded-md text-white w-max">
               Join Now
             </button>
           </div>
