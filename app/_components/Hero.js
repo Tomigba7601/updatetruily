@@ -18,7 +18,9 @@ const Hero = () => {
         <div className="grid grid-cols md:grid-cols-2 gap-8 md:gap-16 items-center">
           <div className="flex flex-col gap-4 z-50 max-w-[30rem]">
             <h2 className="z-50 text-white text-[2rem] leading-[2.5rem] font-bold">
-              Get noticed for who you are, not what you look like.
+              Get noticed for <span className="text-red">who </span>you are,{" "}
+              <span className="text-red">not what </span>
+              you look like.
             </h2>
             <p className="z-50 text-white">
               You’re more than just a photo. You have stories to tell, and
@@ -26,7 +28,7 @@ const Hero = () => {
               interesting than the weather. Because you deserve what dating
               deserves: better.
             </p>
-            <button className="bg-red flex px-6 text-base font-semibold py-2 rounded-full border-2 border-white text-white w-max">
+            <button className="bg-gradient-to-r from-black to-[#F0020A] flex px-6 text-base font-semibold py-2 rounded-full border-[3px] border-white text-white w-max">
               Join Us
             </button>
             <div className="flex gap-4 items-center mt-4">

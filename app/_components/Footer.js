@@ -17,9 +17,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="col-span-1 flex flex-col gap-2 pt-8 md:gap-4 md:pt-0">
-          <h2 className="text-[20px] font-semibold">
-            Quick Links
-          </h2>
+          <h2 className="text-[20px] font-semibold">Quick Links</h2>
           <div className="flex">
             <Link
               href={`#`}
@@ -38,7 +36,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center">
             <Link
-              href={`#`}
+              href={`/faq`}
               className="cursor-pointer text-base font-medium text-gray-100"
             >
               Faq
@@ -49,16 +47,34 @@ const Footer = () => {
           <h2 className="pl-0 text-[20px] font-semibold">Legal</h2>
           <div className="flex flex-col gap-4">
             <Link
-              href={`#`}
+              href={`/privacy-policy`}
               className="cursor-pointer text-base font-medium text-gray-50"
             >
               Privacy
             </Link>
             <Link
-              href={`#`}
+              href={`/cookie-policy`}
+              className="cursor-pointer text-base font-medium text-gray-50"
+            >
+              Cookie Policy
+            </Link>
+            <Link
+              href={`/terms`}
               className="cursor-pointer text-base font-medium text-gray-100"
             >
               Terms
+            </Link>
+            <Link
+              href={`/safety-guideline`}
+              className="cursor-pointer text-base font-medium text-gray-100"
+            >
+              Safety Guideline
+            </Link>
+            <Link
+              href={`/community-guideline`}
+              className="cursor-pointer text-base font-medium text-gray-100"
+            >
+              Community Guideline
             </Link>
           </div>
         </div>
