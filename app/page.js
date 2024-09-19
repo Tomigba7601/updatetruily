@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "./_components/Hero";
 import Discover from "./_components/Discover";
-import Faq from "./_components/Faq";
+// import Faq from "./_components/Faq";
 import About from "./_components/About";
 
 const page = () => {
@@ -10,7 +10,7 @@ const page = () => {
       <Hero />
       <About />
       <Discover />
-      <Faq />
+      {/* <Faq /> */}
     </div>
   );
 };

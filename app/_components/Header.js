@@ -21,6 +21,9 @@ const Header = () => {
           </div>
           <div className="items-center gap-8 hidden md:flex">
             <Link href="#" className="text-red font-medium text-base">
+              Home
+            </Link>
+            <Link href="#" className="text-red font-medium text-base">
               About
             </Link>
             <Link href="#" className="text-red font-medium text-base">
@@ -29,7 +32,7 @@ const Header = () => {
           </div>
           <div>
             <button className="bg-red px-4 hidden md:flex py-2 font-medium text-base text-white rounded-md">
-              Signup
+              SignIn
             </button>
           </div>
           <div className="flex md:hidden">
@@ -45,6 +48,11 @@ const Header = () => {
                 <div className="flex flex-col gap-6">
                   <div>
                     <Link href="#" className="text-white font-medium text-base">
+                      Home
+                    </Link>
+                  </div>
+                  <div>
+                    <Link href="#" className="text-white font-medium text-base">
                       About
                     </Link>
                   </div>
@@ -57,7 +65,7 @@ const Header = () => {
                 <SheetFooter>
                   <SheetClose asChild>
                     <button className="w-full outline-none py-2 flex gap-2 justify-start px-4 rounded-sm bg-red text-white">
-                      SignUp
+                      SignIn
                     </button>
                   </SheetClose>
                 </SheetFooter>
