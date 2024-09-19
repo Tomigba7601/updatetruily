@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="col-span-1 flex flex-col gap-2 md:col-span-2 md:gap-4">
           <div className="flex items-center gap-2 mb-6">
             <img src="/truly.png" className="w-10 h-10 object-cover" />
-            <h2 className="text-red font-bold text-lg">Truly</h2>
+            <h2 className="text-red font-bold text-lg">Truily</h2>
           </div>
           <p className="mt-[-30px] w-[90%] text-[15px] leading-[37px]">
             At truily.com, we strive to connect people looking for love,

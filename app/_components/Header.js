@@ -17,7 +17,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
             <img src="/truly.png" className="w-10 h-10 object-cover" />
-            <h2 className="text-red font-bold text-lg">Truly</h2>
+            <h2 className="text-red font-bold text-lg">Truily</h2>
           </div>
           <div className="items-center gap-8 hidden md:flex">
             <Link href="#" className="text-red font-medium text-base">
