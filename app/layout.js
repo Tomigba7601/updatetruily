@@ -1,7 +1,9 @@
+// "use client";
 import { Nunito } from "next/font/google";
 import "./globals.css";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
+import { SessionProvider } from 'next-auth/react';
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -24,6 +26,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    // <SessionProvider >
     <html lang="en">
       <body className={nunito.className}>
         <Header />
@@ -31,5 +34,6 @@ export default function RootLayout({ children }) {
         <Footer />
       </body>
     </html>
+    // </SessionProvider>
   );
 }

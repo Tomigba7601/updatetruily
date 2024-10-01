@@ -13,25 +13,25 @@ import { Input } from "@/components/ui/input";
 const Hero = () => {
   return (
     <div className="relative bg-hero bg-cover bg-top md:h-screen flex flex-col justify-center py-16 md:py-14 px-4 md:px-0">
-      <div className="absolute inset-0 bg-black bg-opacity-60 z-10"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-60"></div>
       <Container>
         <div className="grid grid-cols md:grid-cols-2 gap-8 md:gap-16 items-center">
-          <div className="flex flex-col gap-4 z-50 max-w-[30rem]">
-            <h2 className="z-50 text-white text-[2rem] leading-[2.5rem] font-bold">
+          <div className="flex flex-col gap-4  max-w-[30rem]">
+            <h2 className=" text-white text-[2rem] leading-[2.5rem] font-bold z-20">
               Get noticed for <span className="text-red">who </span>you are,{" "}
               <span className="text-red">not what </span>
               you look like.
             </h2>
-            <p className="z-50 text-white">
+            <p className="z-20 text-white">
               You’re more than just a photo. You have stories to tell, and
               passions to share, and things to talk about that are more
               interesting than the weather. Because you deserve what dating
               deserves: better.
             </p>
-            <button className="bg-gradient-to-r from-black to-[#F0020A] flex px-6 text-base font-semibold py-2 rounded-full border-[3px] border-white text-white w-max">
+            <button className="z-20 bg-gradient-to-r from-black to-[#F0020A] flex px-6 text-base font-semibold py-2 rounded-full border-[3px] border-white text-white w-max">
               Join Us
             </button>
-            <div className="flex gap-4 items-center mt-4">
+            <div className="z-20 flex gap-4 items-center mt-4">
               <button>
                 <img src="/google-play.png" className="w-36" />
               </button>
