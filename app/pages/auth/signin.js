@@ -2,6 +2,9 @@
 import { signIn } from 'next-auth/react';
 
 export default function SignIn() {
+  // const handleGoogleLogin = () => {
+    // window.location.href = '/api/auth/google';
+  // };
   return (
     <div>
       {/* <h1>Sign In</h1> */}

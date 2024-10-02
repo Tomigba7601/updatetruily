@@ -30,9 +30,7 @@ const Header = () => {
   const toggleMenu = () => {
     setIsMenuOpen(prev => !prev);
   };
-  const handleGoogleLogin = () => {
-    window.location.href = '/api/auth/google';
-  };
+  
 
   return (
     <div className="py-4 h-16 bg-main flex items-center px-4 md:px-0 ">
